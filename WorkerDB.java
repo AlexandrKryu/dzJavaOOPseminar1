@@ -9,7 +9,7 @@ public class WorkerDB implements Iterable<Worker> {
         this.listWorkers = new ArrayList<>();
     }
 
-    public void addWorker (Worker worker) {
+    public void addWorker(Worker worker) {
         this.listWorkers.add(worker);
     }
 
@@ -32,16 +32,15 @@ public class WorkerDB implements Iterable<Worker> {
         };
     }
 
-
-    //    public static void main(String[] args) {
-//        List<Worker> listWorkers = new ArrayList<>();
-//        List<Object> list = new ArrayList<>();
-//        Worker w1 = new Worker("Dima", "IT", "321321321");
-//        Worker w2 = new Worker("Sanya", "IT", "3271");
-//        String str = "asdfasdf";
-//        listWorkers.add(w1);
-//        list.add(str);
-//        list.add(w1);
-//
-//    }
+    // public static void main(String[] args) {
+    // List<Worker> listWorkers = new ArrayList<>();
+    // List<Object> list = new ArrayList<>();
+    // Worker w1 = new Worker("Dima", "IT", "321321321");
+    // Worker w2 = new Worker("Sanya", "IT", "3271");
+    // String str = "asdfasdf";
+    // listWorkers.add(w1);
+    // list.add(str);
+    // list.add(w1);
+    //
+    // }
 }
