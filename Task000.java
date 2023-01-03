@@ -23,7 +23,9 @@ public class Task000 {
         System.out.println(m2);
 
         m1.addSalary(50000);
+        m2.addSalary(500000);
         System.out.println(m1);
+        System.out.println(m2);
 
         String str = extracted();
         switch (str) {
@@ -37,11 +39,11 @@ public class Task000 {
     }
 
     private static String extracted() {
-        Map<Integer, String> map = new TreeMap<>(Map.of(1, "1234", 2, "sdfasdf"));
+        Map<Integer, String> map = new TreeMap<>(Map.of(1, "Пункт 1", 2, "Пункт 2"));
         Scanner scn = new Scanner(System.in);
         System.out.println("Введите пункт: \n");
         for (Map.Entry<Integer, String> integerStringEntry : map.entrySet()) {
-            System.out.printf("%d: %s%n", integerStringEntry.getKey(), integerStringEntry.getValue());
+            System.out.printf("%d: %s %n", integerStringEntry.getKey(), integerStringEntry.getValue());
         }
         return scn.nextLine();
     }
